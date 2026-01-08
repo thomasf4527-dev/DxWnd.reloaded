@@ -1,0 +1,97 @@
+game: "Lego Star Wars: The Complete Saga"
+name: Gameking
+description: Generated on https://ap-lobby.bananium.fr/options/lego_star_wars_tcs
+"Lego Star Wars: The Complete Saga":
+  progression_balancing: normal
+  accessibility: full
+  minikit_goal_amount: use_percentage_option
+  minikit_goal_amount_percentage: 75
+  minikit_goal_completion_method: junkyard_minikit_display
+  defeat_bosses_goal_amount: 8
+  enabled_bosses_count: 8
+  allowed_bosses:
+    - Anakin Skywalker (3-6)
+    - Count Dooku (2-6)
+    - Count Dooku (3-2)
+    - Darth Maul (1-6)
+    - General Grievous (3-3)
+    - Jango Fett (2-2)
+    - Jango Fett (2-4)
+    - Zam Wesell (2-1)
+  only_unique_bosses_count: disabled
+  goal_chapter: 3-6
+  goal_chapter_locations_mode: removed
+  complete_levels_goal_amount_percentage: 0
+  goal_requires_kyber_bricks: false
+  kyber_brick_goal_completion_method: instant
+  enabled_chapters_count: 8
+  allowed_chapters:
+    - Episode 1
+    - Episode 2
+    - Episode 3
+  allowed_chapter_types: all
+  starting_chapter: 1-1
+  preferred_chapters: []
+  prefer_entire_episodes: true
+  enable_minikit_locations: true
+  enable_true_jedi_locations: true
+  enable_story_character_unlock_locations: true
+  enable_bonus_locations: false
+  enable_all_episodes_purchases: false
+  enable_starting_extras_locations: true
+  ridesanity: false
+  episode_unlock_requirement: open
+  chapter_unlock_requirement: story_characters
+  easier_true_jedi: true
+  scale_true_jedi_with_score_multipliers: true
+  most_expensive_purchase_with_no_multiplier: default_(100000_studs)
+  all_episodes_character_purchase_requirements: episodes_tokens
+  minikit_bundle_size: 5
+  start_with_detectors: true
+  preferred_characters:
+    - Anakin Skywalker (Jedi)
+    - Darth Maul
+    - General Grievous
+    - Obi-Wan Kenobi
+    - Qui-Gon Jinn
+    - Yoda
+  preferred_extras:
+    - Dark Side
+    - Deflect Bolts
+    - Disarm Troopers
+    - Exploding Blaster Bolts
+    - Extra Toggle
+    - Fast Build
+    - Fast Force
+    - Force Grapple Leap
+    - Infinite Torpedos
+    - Invincibility
+  filler_reserve_characters: true
+  filler_reserve_extras: true
+  filler_weight_characters: 10
+  filler_weight_extras: 30
+  filler_weight_junk: 30
+  junk_weights:
+    Power Up: 15
+    Silver Stud: 1
+    Gold Stud: 5
+    Blue Stud: 50
+    Purple Stud: 15
+  received_item_messages: all
+  checked_location_messages: all
+  uncap_original_trilogy_high_jump: true
+  death_link: false
+  death_link_amnesty: 0
+  vehicle_death_link_amnesty: 3
+  death_link_studs_loss: 0
+  death_link_studs_loss_scaling: false
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
